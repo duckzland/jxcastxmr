@@ -1,4 +1,4 @@
-###Script for managing CastXMR miner.
+Script for managing CastXMR miner.
 This script has the ability to auto restarting the CastXMR miner when :
 1. The hashrate falls below the configured amount
 2. Low accepted share rate in certain duration
@@ -7,14 +7,14 @@ This script has the ability to auto restarting the CastXMR miner when :
 
 It has the ability to contact Slack and reports the status of the miner
 
-###Dependencies
+Dependencies
 1. Python 2.7
 2. Python - SlackClient
 3. Python - SlackUtil
 4. CastXMR
 5. OverdriveNTool
 
-###Installation
+Installation
 1. Install python normally
 2. Invoke :
     pip install psutil slackclient requests datetime
